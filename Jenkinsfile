@@ -10,7 +10,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/dev/Downloads/Mavenprac/WebApp/ajio/mvn install'
+			  sh '/home/dev/Downloads/Mavenprac/WebApp/ajio/ mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
